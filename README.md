@@ -16,8 +16,8 @@ Each image will contain a code composed of 3 upper case Greek characters
 (i.e. no numerals, punc- tuation marks or lowercase characters). The
 font of all these characters would be the same, as would be the font
 size. However, each character may be rotated (degree of rotation will
-always be either \(0\degree\), ±10\(\degree\), ±20\(\degree\),
-±30\(\degree\) and each character may be rendered with a different
+always be either 0&deg;, ±10&deg;, ±20&deg;,
+±30&deg; and each character may be rendered with a different
 color.
 
 The background color of each image can also change. However, all
@@ -196,7 +196,7 @@ have included it in our report\]
 
 We decided to train our model on the reference images (24 greek
 alphabets). We populated the directory with the rotated versions of the
-reference images - ±10\(\degree\), ±20\(\degree\) and ±30\(\degree\).
+reference images - ±10&deg;, ±20&deg; and ±30&deg;.
 This was done using the **imutils** library.
 
 ``` python
